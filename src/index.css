@@ -627,7 +627,7 @@ body.dark-mode .wishlist-btn {
   background-color: var(--bg-secondary);
   border-radius: var(--radius-lg);
   overflow: hidden;
-  margin: 24px 0 64px 0;
+  margin: 24px auto 64px;
   padding: 80px;
   display: flex;
   align-items: center;
