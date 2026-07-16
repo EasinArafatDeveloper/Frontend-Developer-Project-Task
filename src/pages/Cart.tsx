@@ -51,7 +51,7 @@ export const Cart: React.FC = () => {
           <CheckCircle size={56} />
         </div>
         <h2 style={{ fontSize: '32px', fontWeight: '800', marginBottom: '16px' }}>Order Placed Successfully!</h2>
-        <p style={{ color: 'var(--text-secondary)', maxWidth: '520px', margin: '0 auto 36px auto', fontSize: '16px', lineStyle: '1.6' }}>
+        <p style={{ color: 'var(--text-secondary)', maxWidth: '520px', margin: '0 auto 36px auto', fontSize: '16px', lineHeight: '1.6' }}>
           Thank you for shopping at AURA. Your mock order has been received. We've sent a receipt to your email, and we'll notify you when it ships.
         </p>
         <Link to="/shop" className="btn btn-primary">
@@ -101,7 +101,7 @@ export const Cart: React.FC = () => {
       <div className="cart-grid">
         {/* Cart items list */}
         <div className="cart-items-list">
-          {cart.map((item, index) => (
+          {cart.map((item) => (
             <div key={`${item.product.id}-${item.selectedColor}-${item.selectedSize}`} className="cart-item">
               {/* Product Image */}
               <div className="cart-item-img">

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, ShieldCheck, Truck, RefreshCw, ShoppingBag } from 'lucide-react';
+import { ArrowRight, ShieldCheck, Truck, RefreshCw } from 'lucide-react';
 import { products } from '../data/products';
 import { ProductCard } from '../components/ProductCard';
 
@@ -97,7 +97,7 @@ export const Home: React.FC = () => {
               alt="Men's collection" 
               style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'brightness(0.85)' }}
             />
-            <div style={{ position: 'absolute', bottom: '0', left: '0', width: '100%', padding: '24px', background: 'linear-gradient(transparent, rgba(0,0,0,0.8))', color: '#ffffff', z-index: 2 }}>
+            <div style={{ position: 'absolute', bottom: '0', left: '0', width: '100%', padding: '24px', background: 'linear-gradient(transparent, rgba(0,0,0,0.8))', color: '#ffffff', zIndex: 2 }}>
               <h3 style={{ fontSize: '24px', fontWeight: '700', color: '#ffffff' }}>Men</h3>
               <p style={{ fontSize: '14px', opacity: '0.8', marginTop: '4px' }}>Classics & Essentials &rarr;</p>
             </div>
@@ -110,7 +110,7 @@ export const Home: React.FC = () => {
               alt="Women's collection" 
               style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'brightness(0.85)' }}
             />
-            <div style={{ position: 'absolute', bottom: '0', left: '0', width: '100%', padding: '24px', background: 'linear-gradient(transparent, rgba(0,0,0,0.8))', color: '#ffffff', z-index: 2 }}>
+            <div style={{ position: 'absolute', bottom: '0', left: '0', width: '100%', padding: '24px', background: 'linear-gradient(transparent, rgba(0,0,0,0.8))', color: '#ffffff', zIndex: 2 }}>
               <h3 style={{ fontSize: '24px', fontWeight: '700', color: '#ffffff' }}>Women</h3>
               <p style={{ fontSize: '14px', opacity: '0.8', marginTop: '4px' }}>Trendy & Elegant &rarr;</p>
             </div>
@@ -123,7 +123,7 @@ export const Home: React.FC = () => {
               alt="Accessories collection" 
               style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'brightness(0.85)' }}
             />
-            <div style={{ position: 'absolute', bottom: '0', left: '0', width: '100%', padding: '24px', background: 'linear-gradient(transparent, rgba(0,0,0,0.8))', color: '#ffffff', z-index: 2 }}>
+            <div style={{ position: 'absolute', bottom: '0', left: '0', width: '100%', padding: '24px', background: 'linear-gradient(transparent, rgba(0,0,0,0.8))', color: '#ffffff', zIndex: 2 }}>
               <h3 style={{ fontSize: '24px', fontWeight: '700', color: '#ffffff' }}>Accessories</h3>
               <p style={{ fontSize: '14px', opacity: '0.8', marginTop: '4px' }}>Complete Your Vibe &rarr;</p>
             </div>
